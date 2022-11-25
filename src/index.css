@@ -1,13 +1,22 @@
+@font-face {
+  font-family: "RobotoMono Bold";
+  src: url("./fonts/Roboto\ Mono\ Bold\ Nerd\ Font\ Complete.ttf");
+}
+
+@font-face {
+  font-family: "RobotoMono Medium";
+  src: url("./fonts/Roboto\ Mono\ Medium\ Nerd\ Font\ Complete.ttf");
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: -apple-system, 'RobotoMono Medium', 'RobotoMono Bold';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: 'RobotoMono Medium', 'RobotoMono Bold';
 }
+
+.progress_inner .background .bar_in{background: #5e9e9f;}
