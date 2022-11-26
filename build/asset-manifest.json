@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.23d8af84.css",
+    "main.js": "/static/js/main.75da4f3e.js",
+    "static/js/787.aeca62f9.chunk.js": "/static/js/787.aeca62f9.chunk.js",
+    "static/media/Roboto Mono Bold Nerd Font Complete.ttf": "/static/media/Roboto Mono Bold Nerd Font Complete.e00570fe7562c3273925.ttf",
+    "static/media/Roboto Mono Medium Nerd Font Complete.ttf": "/static/media/Roboto Mono Medium Nerd Font Complete.089602ac33fe3c5301d1.ttf",
+    "index.html": "/index.html",
+    "main.23d8af84.css.map": "/static/css/main.23d8af84.css.map",
+    "main.75da4f3e.js.map": "/static/js/main.75da4f3e.js.map",
+    "787.aeca62f9.chunk.js.map": "/static/js/787.aeca62f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.23d8af84.css",
+    "static/js/main.75da4f3e.js"
+  ]
+}
