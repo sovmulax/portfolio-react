@@ -10,13 +10,26 @@
 
 body {
   margin: 0;
-  font-family: -apple-system, 'RobotoMono Medium', 'RobotoMono Bold';
+  font-family: -apple-system, "RobotoMono Medium", "RobotoMono Bold";
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  overflow-y: visible;
 }
 
 code {
-  font-family: 'RobotoMono Medium', 'RobotoMono Bold';
+  font-family: "RobotoMono Medium", "RobotoMono Bold";
 }
 
-.progress_inner .background .bar_in{background: #5e9e9f;}
+.main {
+  height: 100vh;
+}
+
+@media (max-width: 999px) {
+  .main {
+    height: 100%;
+  }
+}
+.progress_inner .background .bar_in {
+  background: #5e9e9f;
+}

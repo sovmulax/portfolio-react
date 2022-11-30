@@ -30,7 +30,7 @@ const Credits = () => {
         }}
       />
       </a>{" "}
-      <a href="mailto:soumailaevane@latash.co">
+      <a href="mailto:soumailaevane@gmail.com">
       <Image
         src="/images/gmail-logo.png"
         style={{

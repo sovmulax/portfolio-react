@@ -3,7 +3,7 @@ const Avatar = () => {
   return (
     <Col lg={4} md={12} sm={12}>
       <Image src="/images/avatar.jpg" style={{
-            height:'90%',
+            height:'100%',
             width: '100%'
           }}/>
     </Col>

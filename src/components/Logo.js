@@ -1,4 +1,5 @@
 import { Col, Image, Button } from "react-bootstrap";
+import cv from '../files/cv.pdf'
 const Logo = () => {
   return (
     <Col lg={4} md={12} sm={12} className="text-center">
@@ -11,7 +12,9 @@ const Logo = () => {
       />
       <br />
       <br />
-      <Button size="lg" variant="secondary">Voir le CV</Button>{" "}
+      <a href={cv} target="_blank" rel="noopener noreferrer">
+        <Button size="lg" variant="secondary">Voir le CV</Button>
+      </a>
     </Col>
   );
 };
